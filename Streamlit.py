@@ -1,6 +1,8 @@
 import streamlit as st
 from openai import AzureOpenAI
-from moviepy.editor import VideoFileClip, AudioFileClip
+import moviepy
+from moviepy.video.io.VideoFileClip import VideoFileClip
+from moviepy.audio.io.AudioFileClip import AudioFileClip
 import os
 from dotenv import load_dotenv
 import warnings
